@@ -25,7 +25,7 @@ function App() {
 
   function CreateNewTask()
   {
-    if (!newtitle.trim()) {
+    if (newTitle.length === 0) {
       return; 
     }
 
